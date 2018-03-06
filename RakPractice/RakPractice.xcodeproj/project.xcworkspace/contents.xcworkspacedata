@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/shaikaqib/Documents/iOS/RakPractice/RakPractice/GoogleService-Info.plist">
+   </FileRef>
+   <FileRef
       location = "self:RakPractice.xcodeproj">
    </FileRef>
 </Workspace>

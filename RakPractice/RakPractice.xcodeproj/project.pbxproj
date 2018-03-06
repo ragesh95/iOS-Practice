@@ -16,6 +16,8 @@
 		1341EC702048156F0041EF7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1341EC6F2048156F0041EF7F /* Assets.xcassets */; };
 		1341EC732048156F0041EF7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1341EC712048156F0041EF7F /* LaunchScreen.storyboard */; };
 		13CE43D4204E5B5100674626 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CE43D3204E5B5100674626 /* Datas.swift */; };
+		13CE43DA204EB2A800674626 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 13CE43D9204EB2A700674626 /* Podfile */; };
+		6CCAEAC568DA979A4D708E85 /* Pods_RakPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F629A616818EFA138F11C51 /* Pods_RakPractice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,11 @@
 		1341EC722048156F0041EF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1341EC742048156F0041EF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13CE43D3204E5B5100674626 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		13CE43D7204EB10C00674626 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "/Users/shaikaqib/Documents/iOS/RakPractice/RakPractice/GoogleService-Info.plist"; sourceTree = "<absolute>"; };
+		13CE43D9204EB2A700674626 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F629A616818EFA138F11C51 /* Pods_RakPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RakPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0D76125C5D400ADDA48A0F /* Pods-RakPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-RakPractice/Pods-RakPractice.release.xcconfig"; sourceTree = "<group>"; };
+		C0D3DE958BDEC2513FD549E5 /* Pods-RakPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RakPractice/Pods-RakPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CCAEAC568DA979A4D708E85 /* Pods_RakPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,8 +54,11 @@
 		1341EC5C2048156E0041EF7F = {
 			isa = PBXGroup;
 			children = (
+				13CE43D9204EB2A700674626 /* Podfile */,
 				1341EC672048156E0041EF7F /* RakPractice */,
 				1341EC662048156E0041EF7F /* Products */,
+				38E31F2F02F61A31723B0608 /* Pods */,
+				DF3FC4BAC2534ED8DB0CD31A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,15 +76,33 @@
 				1341EC682048156E0041EF7F /* AppDelegate.swift */,
 				1341EC6A2048156E0041EF7F /* ViewController.swift */,
 				1341EC6C2048156F0041EF7F /* Main.storyboard */,
-				1341EC6F2048156F0041EF7F /* Assets.xcassets */,
-				1341EC712048156F0041EF7F /* LaunchScreen.storyboard */,
-				1341EC742048156F0041EF7F /* Info.plist */,
 				133C31FF204D3B2D009394D3 /* ListViewController.swift */,
 				133C31FB204D3A2B009394D3 /* List.storyboard */,
 				133C3201204D724C009394D3 /* NumberTableViewCell.swift */,
 				13CE43D3204E5B5100674626 /* Datas.swift */,
+				1341EC712048156F0041EF7F /* LaunchScreen.storyboard */,
+				1341EC6F2048156F0041EF7F /* Assets.xcassets */,
+				1341EC742048156F0041EF7F /* Info.plist */,
+				13CE43D7204EB10C00674626 /* GoogleService-Info.plist */,
 			);
 			path = RakPractice;
+			sourceTree = "<group>";
+		};
+		38E31F2F02F61A31723B0608 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0D3DE958BDEC2513FD549E5 /* Pods-RakPractice.debug.xcconfig */,
+				7D0D76125C5D400ADDA48A0F /* Pods-RakPractice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF3FC4BAC2534ED8DB0CD31A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F629A616818EFA138F11C51 /* Pods_RakPractice.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1341EC772048156F0041EF7F /* Build configuration list for PBXNativeTarget "RakPractice" */;
 			buildPhases = (
+				090695722028B8CEB47A158D /* [CP] Check Pods Manifest.lock */,
 				1341EC612048156E0041EF7F /* Sources */,
 				1341EC622048156E0041EF7F /* Frameworks */,
 				1341EC632048156E0041EF7F /* Resources */,
+				C6250C2F482A67E8AB296552 /* [CP] Embed Pods Frameworks */,
+				60A45B605B0B0840D6C05D65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13CE43DA204EB2A800674626 /* Podfile in Resources */,
 				1341EC732048156F0041EF7F /* LaunchScreen.storyboard in Resources */,
 				1341EC702048156F0041EF7F /* Assets.xcassets in Resources */,
 				133C31FC204D3A2B009394D3 /* List.storyboard in Resources */,
@@ -146,6 +179,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		090695722028B8CEB47A158D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RakPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A45B605B0B0840D6C05D65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RakPractice/Pods-RakPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6250C2F482A67E8AB296552 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RakPractice/Pods-RakPractice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RakPractice/Pods-RakPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1341EC612048156E0041EF7F /* Sources */ = {
@@ -291,6 +380,7 @@
 		};
 		1341EC782048156F0041EF7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D3DE958BDEC2513FD549E5 /* Pods-RakPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,6 +395,7 @@
 		};
 		1341EC792048156F0041EF7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0D76125C5D400ADDA48A0F /* Pods-RakPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
