@@ -51,8 +51,7 @@ class ListViewController: UIViewController {
     }
     
     @objc func printt(data: String) {
-        //ViewController.showToast(message: data, view: self)
-        var data = data.replacingOccurrences(of: ".", with: "\n")
+        let data = data.replacingOccurrences(of: ".", with: "\n")
         outLable.text = data
     }
 

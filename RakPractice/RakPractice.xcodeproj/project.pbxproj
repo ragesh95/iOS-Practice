@@ -9,16 +9,19 @@
 /* Begin PBXBuildFile section */
 		133C31FC204D3A2B009394D3 /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133C31FB204D3A2B009394D3 /* List.storyboard */; };
 		133C3200204D3B2D009394D3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C31FF204D3B2D009394D3 /* ListViewController.swift */; };
+		133C3202204D724C009394D3 /* NumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3201204D724C009394D3 /* NumberTableViewCell.swift */; };
 		1341EC692048156E0041EF7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1341EC682048156E0041EF7F /* AppDelegate.swift */; };
 		1341EC6B2048156E0041EF7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1341EC6A2048156E0041EF7F /* ViewController.swift */; };
 		1341EC6E2048156F0041EF7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1341EC6C2048156F0041EF7F /* Main.storyboard */; };
 		1341EC702048156F0041EF7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1341EC6F2048156F0041EF7F /* Assets.xcassets */; };
 		1341EC732048156F0041EF7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1341EC712048156F0041EF7F /* LaunchScreen.storyboard */; };
+		13CE43D4204E5B5100674626 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CE43D3204E5B5100674626 /* Datas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		133C31FB204D3A2B009394D3 /* List.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = List.storyboard; sourceTree = "<group>"; };
 		133C31FF204D3B2D009394D3 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		133C3201204D724C009394D3 /* NumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTableViewCell.swift; sourceTree = "<group>"; };
 		1341EC652048156E0041EF7F /* RakPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RakPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1341EC682048156E0041EF7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1341EC6A2048156E0041EF7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		1341EC6F2048156F0041EF7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1341EC722048156F0041EF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1341EC742048156F0041EF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13CE43D3204E5B5100674626 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				1341EC742048156F0041EF7F /* Info.plist */,
 				133C31FF204D3B2D009394D3 /* ListViewController.swift */,
 				133C31FB204D3A2B009394D3 /* List.storyboard */,
+				133C3201204D724C009394D3 /* NumberTableViewCell.swift */,
+				13CE43D3204E5B5100674626 /* Datas.swift */,
 			);
 			path = RakPractice;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				133C3202204D724C009394D3 /* NumberTableViewCell.swift in Sources */,
 				133C3200204D3B2D009394D3 /* ListViewController.swift in Sources */,
+				13CE43D4204E5B5100674626 /* Datas.swift in Sources */,
 				1341EC6B2048156E0041EF7F /* ViewController.swift in Sources */,
 				1341EC692048156E0041EF7F /* AppDelegate.swift in Sources */,
 			);

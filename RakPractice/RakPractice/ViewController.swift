@@ -29,6 +29,12 @@ class ViewController: UIViewController {
         mul.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
         div.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
         nextButton.addTarget(self, action: #selector(nextController), for: .touchUpInside)
+        let datas: Datas = Datas(name: "testname")
+        Datas.saveDatas(datas: datas, view: self)
+        guard let allDatas: Datas = Datas.loadDatas() else {
+            return
+        }
+        ViewController.showToast(message: "\(allDatas.name)", view: self)
     }
 
     override func didReceiveMemoryWarning() {
