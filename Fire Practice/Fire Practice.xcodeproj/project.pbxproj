@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13CE43EA204EBEB300674626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CE43E9204EBEB300674626 /* AppDelegate.swift */; };
+		13CE43EC204EBEB300674626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CE43EB204EBEB300674626 /* ViewController.swift */; };
+		13CE43EF204EBEB300674626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CE43ED204EBEB300674626 /* Main.storyboard */; };
+		13CE43F1204EBEB300674626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CE43F0204EBEB300674626 /* Assets.xcassets */; };
+		13CE43F4204EBEB300674626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CE43F2204EBEB300674626 /* LaunchScreen.storyboard */; };
+		13CE43FC204EBF6400674626 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13CE43FB204EBF6300674626 /* GoogleService-Info.plist */; };
+		390EE3C786EE1D6DD686C0AB /* Pods_Fire_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D061296D1EA20606FF6301C1 /* Pods_Fire_Practice.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13CE43E6204EBEB300674626 /* Fire Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fire Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CE43E9204EBEB300674626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13CE43EB204EBEB300674626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13CE43EE204EBEB300674626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13CE43F0204EBEB300674626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13CE43F3204EBEB300674626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13CE43F5204EBEB300674626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13CE43FB204EBF6300674626 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../RakPractice/RakPractice/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2C7CEC1FB63E984A2DE523FE /* Pods-Fire Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fire Practice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fire Practice/Pods-Fire Practice.debug.xcconfig"; sourceTree = "<group>"; };
+		B09B7B345D8DE0AD099598E1 /* Pods-Fire Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fire Practice.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fire Practice/Pods-Fire Practice.release.xcconfig"; sourceTree = "<group>"; };
+		D061296D1EA20606FF6301C1 /* Pods_Fire_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fire_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13CE43E3204EBEB200674626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390EE3C786EE1D6DD686C0AB /* Pods_Fire_Practice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00DB4EEBBE18EF3A0BBEA1AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C7CEC1FB63E984A2DE523FE /* Pods-Fire Practice.debug.xcconfig */,
+				B09B7B345D8DE0AD099598E1 /* Pods-Fire Practice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		13CE43DD204EBEB200674626 = {
+			isa = PBXGroup;
+			children = (
+				13CE43FB204EBF6300674626 /* GoogleService-Info.plist */,
+				13CE43E8204EBEB300674626 /* Fire Practice */,
+				13CE43E7204EBEB300674626 /* Products */,
+				00DB4EEBBE18EF3A0BBEA1AC /* Pods */,
+				D633DAEF859CB0ADB8793475 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13CE43E7204EBEB300674626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13CE43E6204EBEB300674626 /* Fire Practice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13CE43E8204EBEB300674626 /* Fire Practice */ = {
+			isa = PBXGroup;
+			children = (
+				13CE43E9204EBEB300674626 /* AppDelegate.swift */,
+				13CE43EB204EBEB300674626 /* ViewController.swift */,
+				13CE43ED204EBEB300674626 /* Main.storyboard */,
+				13CE43F0204EBEB300674626 /* Assets.xcassets */,
+				13CE43F2204EBEB300674626 /* LaunchScreen.storyboard */,
+				13CE43F5204EBEB300674626 /* Info.plist */,
+			);
+			path = "Fire Practice";
+			sourceTree = "<group>";
+		};
+		D633DAEF859CB0ADB8793475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D061296D1EA20606FF6301C1 /* Pods_Fire_Practice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13CE43E5204EBEB200674626 /* Fire Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CE43F8204EBEB300674626 /* Build configuration list for PBXNativeTarget "Fire Practice" */;
+			buildPhases = (
+				38BB68670C37AB606FBD4894 /* [CP] Check Pods Manifest.lock */,
+				13CE43E2204EBEB200674626 /* Sources */,
+				13CE43E3204EBEB200674626 /* Frameworks */,
+				13CE43E4204EBEB200674626 /* Resources */,
+				71DC2E173DF5788EADB05FB9 /* [CP] Embed Pods Frameworks */,
+				8F972898C3B84EFCA9B94B35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fire Practice";
+			productName = "Fire Practice";
+			productReference = 13CE43E6204EBEB300674626 /* Fire Practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13CE43DE204EBEB200674626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Wipro;
+				TargetAttributes = {
+					13CE43E5204EBEB200674626 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 13CE43E1204EBEB200674626 /* Build configuration list for PBXProject "Fire Practice" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13CE43DD204EBEB200674626;
+			productRefGroup = 13CE43E7204EBEB300674626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13CE43E5204EBEB200674626 /* Fire Practice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13CE43E4204EBEB200674626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CE43F4204EBEB300674626 /* LaunchScreen.storyboard in Resources */,
+				13CE43FC204EBF6400674626 /* GoogleService-Info.plist in Resources */,
+				13CE43F1204EBEB300674626 /* Assets.xcassets in Resources */,
+				13CE43EF204EBEB300674626 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38BB68670C37AB606FBD4894 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fire Practice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71DC2E173DF5788EADB05FB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fire Practice/Pods-Fire Practice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fire Practice/Pods-Fire Practice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F972898C3B84EFCA9B94B35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fire Practice/Pods-Fire Practice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13CE43E2204EBEB200674626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CE43EC204EBEB300674626 /* ViewController.swift in Sources */,
+				13CE43EA204EBEB300674626 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13CE43ED204EBEB300674626 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CE43EE204EBEB300674626 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13CE43F2204EBEB300674626 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CE43F3204EBEB300674626 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13CE43F6204EBEB300674626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13CE43F7204EBEB300674626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13CE43F9204EBEB300674626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7CEC1FB63E984A2DE523FE /* Pods-Fire Practice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fire Practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rakesh.practice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13CE43FA204EBEB300674626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B09B7B345D8DE0AD099598E1 /* Pods-Fire Practice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fire Practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rakesh.practice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13CE43E1204EBEB200674626 /* Build configuration list for PBXProject "Fire Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CE43F6204EBEB300674626 /* Debug */,
+				13CE43F7204EBEB300674626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CE43F8204EBEB300674626 /* Build configuration list for PBXNativeTarget "Fire Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CE43F9204EBEB300674626 /* Debug */,
+				13CE43FA204EBEB300674626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13CE43DE204EBEB200674626 /* Project object */;
+}
