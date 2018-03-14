@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1323E6CC2057A2D200E9F516 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E6CB2057A2D200E9F516 /* Process.swift */; };
+		1323E6D42057DCD100E9F516 /* TryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323E6D32057DCD100E9F516 /* TryController.swift */; };
+		1323E6D62057DCFE00E9F516 /* Try.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1323E6D52057DCFE00E9F516 /* Try.storyboard */; };
 		13CE43EA204EBEB300674626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CE43E9204EBEB300674626 /* AppDelegate.swift */; };
 		13CE43EC204EBEB300674626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CE43EB204EBEB300674626 /* ViewController.swift */; };
 		13CE43EF204EBEB300674626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CE43ED204EBEB300674626 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1323E6CB2057A2D200E9F516 /* Process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
+		1323E6D32057DCD100E9F516 /* TryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryController.swift; sourceTree = "<group>"; };
+		1323E6D52057DCFE00E9F516 /* Try.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Try.storyboard; sourceTree = "<group>"; };
 		13CE43E6204EBEB300674626 /* Fire Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fire Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13CE43E9204EBEB300674626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13CE43EB204EBEB300674626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 				13CE43F0204EBEB300674626 /* Assets.xcassets */,
 				13CE43F2204EBEB300674626 /* LaunchScreen.storyboard */,
 				13CE43F5204EBEB300674626 /* Info.plist */,
+				1323E6CB2057A2D200E9F516 /* Process.swift */,
+				1323E6D32057DCD100E9F516 /* TryController.swift */,
+				1323E6D52057DCFE00E9F516 /* Try.storyboard */,
 			);
 			path = "Fire Practice";
 			sourceTree = "<group>";
@@ -154,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13CE43F4204EBEB300674626 /* LaunchScreen.storyboard in Resources */,
+				1323E6D62057DCFE00E9F516 /* Try.storyboard in Resources */,
 				13CE43FC204EBF6400674626 /* GoogleService-Info.plist in Resources */,
 				13CE43F1204EBEB300674626 /* Assets.xcassets in Resources */,
 				13CE43EF204EBEB300674626 /* Main.storyboard in Resources */,
@@ -188,14 +198,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Fire Practice/Pods-Fire Practice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,7 +240,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13CE43EC204EBEB300674626 /* ViewController.swift in Sources */,
+				1323E6D42057DCD100E9F516 /* TryController.swift in Sources */,
 				13CE43EA204EBEB300674626 /* AppDelegate.swift in Sources */,
+				1323E6CC2057A2D200E9F516 /* Process.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

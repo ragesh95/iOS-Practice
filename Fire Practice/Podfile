@@ -8,4 +8,6 @@ target 'Fire Practice' do
   # Pods for Fire Practice
 	pod ‘Firebase/Core’
     pod 'Firebase/Messaging'
+    pod 'Firebase/Database'
+    pod 'Alamofire'
 end
