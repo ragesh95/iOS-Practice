@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Fire Practice.xcodeproj">
+      location = "group:/Users/shaikaqib/Documents/iOS/Fire Practice/Toolkit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

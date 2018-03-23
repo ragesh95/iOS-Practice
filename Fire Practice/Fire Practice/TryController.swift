@@ -29,8 +29,11 @@ class TryController: UIViewController {
     
     @IBOutlet weak var progressView: UIProgressView!
     
+    static var tryObj: TryController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        TryController.tryObj = self
         progressView.isHidden = true
         netButton.addTarget(self, action: #selector(checkNet), for: .touchUpInside)
         

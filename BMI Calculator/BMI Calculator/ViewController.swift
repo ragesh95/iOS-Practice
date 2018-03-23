@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("UDID \(UIDevice.current.identifierForVendor!.uuidString)")
         calculateButton.addTarget(self, action: #selector(calculate), for: .touchUpInside)
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
         bannerView.adUnitID = "ca-app-pub-4071831192467764/7780820042"

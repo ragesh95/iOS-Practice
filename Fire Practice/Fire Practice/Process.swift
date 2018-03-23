@@ -21,6 +21,33 @@ class Process {
         if type == "playring" {
             playRing()
         }
+        else if type == "checknetdelivered" {
+            ViewController.showToast(message: "Internet Available", view: TryController.tryObj)
+        }
+        else if type == "playringdelivered" {
+            ViewController.showToast(message: "Ringtone started playing", view: TryController.tryObj)
+        }
+        else if type == "stopplayringdelivered" {
+            ViewController.showToast(message: "Ringtone stopped playing", view: TryController.tryObj)
+        }
+        else if type == "startvibratedelivered" {
+            ViewController.showToast(message: "Vibrating", view: TryController.tryObj)
+        }
+        else if type == "stopvibratedelivered" {
+            ViewController.showToast(message: "Vibration Stopped", view: TryController.tryObj)
+        }
+        else if type == "displayblankdelivered" {
+            ViewController.showToast(message: "Displaying Blank Screen", view: TryController.tryObj)
+        }
+        else if type == "stopblankdelivered" {
+            ViewController.showToast(message: "Displaying Blank Screen Stopped", view: TryController.tryObj)
+        }
+        else if type == "ringmodedelivered" {
+            ViewController.showToast(message: "Turned on Ring Mode", view: TryController.tryObj)
+        }
+        else if type == "lockphonedelivered" {
+            ViewController.showToast(message: "Locked Phone", view: TryController.tryObj)
+        }
     }
     
     func playRing() {

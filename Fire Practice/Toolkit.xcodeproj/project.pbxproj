@@ -16,14 +16,18 @@
 		13CE43F1204EBEB300674626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CE43F0204EBEB300674626 /* Assets.xcassets */; };
 		13CE43F4204EBEB300674626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CE43F2204EBEB300674626 /* LaunchScreen.storyboard */; };
 		13CE43FC204EBF6400674626 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13CE43FB204EBF6300674626 /* GoogleService-Info.plist */; };
-		390EE3C786EE1D6DD686C0AB /* Pods_Fire_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D061296D1EA20606FF6301C1 /* Pods_Fire_Practice.framework */; };
+		13F1FC052063A89700F1F5BE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F1FC062063A89700F1F5BE /* Alamofire.framework */; };
+		13F1FC072063A92E00F1F5BE /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F1FC082063A92E00F1F5BE /* GoogleToolboxForMac.framework */; };
+		13F1FC092063A96E00F1F5BE /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F1FC0A2063A96E00F1F5BE /* Protobuf.framework */; };
+		13F1FC0B2063A9AE00F1F5BE /* leveldb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F1FC0C2063A9AE00F1F5BE /* leveldb.framework */; };
+		13F1FC0D2063AA0900F1F5BE /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F1FC0E2063AA0900F1F5BE /* nanopb.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1323E6CB2057A2D200E9F516 /* Process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
 		1323E6D32057DCD100E9F516 /* TryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryController.swift; sourceTree = "<group>"; };
 		1323E6D52057DCFE00E9F516 /* Try.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Try.storyboard; sourceTree = "<group>"; };
-		13CE43E6204EBEB300674626 /* Fire Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fire Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CE43E6204EBEB300674626 /* Toolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13CE43E9204EBEB300674626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13CE43EB204EBEB300674626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		13CE43EE204EBEB300674626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,6 +35,14 @@
 		13CE43F3204EBEB300674626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13CE43F5204EBEB300674626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13CE43FB204EBF6300674626 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../RakPractice/RakPractice/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13F1FC002063A6F200F1F5BE /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F1FC022063A71300F1F5BE /* Pods_Fire_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Fire_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F1FC042063A71B00F1F5BE /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F1FC062063A89700F1F5BE /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F1FC082063A92E00F1F5BE /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F1FC0A2063A96E00F1F5BE /* Protobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F1FC0C2063A9AE00F1F5BE /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F1FC0E2063AA0900F1F5BE /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7CEC1FB63E984A2DE523FE /* Pods-Fire Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fire Practice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fire Practice/Pods-Fire Practice.debug.xcconfig"; sourceTree = "<group>"; };
 		B09B7B345D8DE0AD099598E1 /* Pods-Fire Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fire Practice.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fire Practice/Pods-Fire Practice.release.xcconfig"; sourceTree = "<group>"; };
 		D061296D1EA20606FF6301C1 /* Pods_Fire_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fire_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,7 +53,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				390EE3C786EE1D6DD686C0AB /* Pods_Fire_Practice.framework in Frameworks */,
+				13F1FC0D2063AA0900F1F5BE /* nanopb.framework in Frameworks */,
+				13F1FC0B2063A9AE00F1F5BE /* leveldb.framework in Frameworks */,
+				13F1FC092063A96E00F1F5BE /* Protobuf.framework in Frameworks */,
+				13F1FC072063A92E00F1F5BE /* GoogleToolboxForMac.framework in Frameworks */,
+				13F1FC052063A89700F1F5BE /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +87,7 @@
 		13CE43E7204EBEB300674626 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13CE43E6204EBEB300674626 /* Fire Practice.app */,
+				13CE43E6204EBEB300674626 /* Toolkit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +111,14 @@
 		D633DAEF859CB0ADB8793475 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13F1FC0E2063AA0900F1F5BE /* nanopb.framework */,
+				13F1FC0C2063A9AE00F1F5BE /* leveldb.framework */,
+				13F1FC0A2063A96E00F1F5BE /* Protobuf.framework */,
+				13F1FC082063A92E00F1F5BE /* GoogleToolboxForMac.framework */,
+				13F1FC062063A89700F1F5BE /* Alamofire.framework */,
+				13F1FC042063A71B00F1F5BE /* GoogleToolboxForMac.framework */,
+				13F1FC022063A71300F1F5BE /* Pods_Fire_Practice.framework */,
+				13F1FC002063A6F200F1F5BE /* Alamofire.framework */,
 				D061296D1EA20606FF6301C1 /* Pods_Fire_Practice.framework */,
 			);
 			name = Frameworks;
@@ -103,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13CE43E5204EBEB200674626 /* Fire Practice */ = {
+		13CE43E5204EBEB200674626 /* Toolkit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13CE43F8204EBEB300674626 /* Build configuration list for PBXNativeTarget "Fire Practice" */;
+			buildConfigurationList = 13CE43F8204EBEB300674626 /* Build configuration list for PBXNativeTarget "Toolkit" */;
 			buildPhases = (
 				38BB68670C37AB606FBD4894 /* [CP] Check Pods Manifest.lock */,
 				13CE43E2204EBEB200674626 /* Sources */,
@@ -118,9 +142,9 @@
 			);
 			dependencies = (
 			);
-			name = "Fire Practice";
+			name = Toolkit;
 			productName = "Fire Practice";
-			productReference = 13CE43E6204EBEB300674626 /* Fire Practice.app */;
+			productReference = 13CE43E6204EBEB300674626 /* Toolkit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 13CE43E1204EBEB200674626 /* Build configuration list for PBXProject "Fire Practice" */;
+			buildConfigurationList = 13CE43E1204EBEB200674626 /* Build configuration list for PBXProject "Toolkit" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -152,7 +176,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13CE43E5204EBEB200674626 /* Fire Practice */,
+				13CE43E5204EBEB200674626 /* Toolkit */,
 			);
 		};
 /* End PBXProject section */
@@ -316,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -367,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -381,9 +405,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Fire Practice/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rakesh.practice;
+				PRODUCT_BUNDLE_IDENTIFIER = raki.war.control.other.phone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -396,9 +421,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Fire Practice/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rakesh.practice;
+				PRODUCT_BUNDLE_IDENTIFIER = raki.war.control.other.phone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -408,7 +434,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13CE43E1204EBEB200674626 /* Build configuration list for PBXProject "Fire Practice" */ = {
+		13CE43E1204EBEB200674626 /* Build configuration list for PBXProject "Toolkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13CE43F6204EBEB300674626 /* Debug */,
@@ -417,7 +443,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13CE43F8204EBEB300674626 /* Build configuration list for PBXNativeTarget "Fire Practice" */ = {
+		13CE43F8204EBEB300674626 /* Build configuration list for PBXNativeTarget "Toolkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13CE43F9204EBEB300674626 /* Debug */,
